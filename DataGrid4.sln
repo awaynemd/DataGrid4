@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30509.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "DataGrid4", "DataGrid4\DataGrid4.fsproj", "{C4C9538B-3BAA-4310-AFAA-7377359E9CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGrid4.View", "DataGrid4.View\DataGrid4.View.csproj", "{7C818398-7064-4479-8F5D-89B364E0D082}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4C9538B-3BAA-4310-AFAA-7377359E9CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C9538B-3BAA-4310-AFAA-7377359E9CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C9538B-3BAA-4310-AFAA-7377359E9CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C9538B-3BAA-4310-AFAA-7377359E9CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C818398-7064-4479-8F5D-89B364E0D082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C818398-7064-4479-8F5D-89B364E0D082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C818398-7064-4479-8F5D-89B364E0D082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C818398-7064-4479-8F5D-89B364E0D082}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E464B40C-14FB-444F-BCF2-52A01A674E39}
+	EndGlobalSection
+EndGlobal

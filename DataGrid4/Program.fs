@@ -130,6 +130,7 @@ module App =
     [<EntryPoint; STAThread>]
     let main argv =
       Program.mkSimpleWpf init update bindings
-      |> Program.withConsoleTrace
-      |> Program.runWindow (MainWindow())
+      |> Program.runWindowWithConfig
+        { ElmConfig.Default with LogConsole = true }
+        (MainWindow())
  
